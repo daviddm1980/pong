@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#tablero {
+    height: 100vh;
+    background-color: #000;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+#ball {
+    position: absolute;
+    background-color: greenyellow;
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    left: 50px;
+}
+
+#pala {
+    position: absolute;
+    background-color: greenyellow;
+    height: 150px;
+    width: 20px;
+    left: 50px;
+}
+
+#puntos {
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
